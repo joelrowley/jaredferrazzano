@@ -1,0 +1,58 @@
+html{
+	font-size: 16px;
+}
+body{
+	background-color: #ADEAEF;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.topnav a{
+	font-family: 'Barlow', sans-serif;
+	text-decoration: none;
+	font-size: 1.7rem;
+	font-weight: 200;
+	color: #14293E;
+	padding: 0 90px 0 0;
+	line-height: 1.3rem;
+}
+.topnav a:hover{
+	font-family: 'Barlow', sans-serif;
+	width: 100%;
+	overflow: hidden;
+	color: #14293E;
+	text-decoration: underline;
+	font-weight: 400;
+	line-height: 1.3rem;
+}
+a{
+	font-family: 'Barlow', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 125%;
+	color: #14293E;
+	margin:  0 0 0 0;
+}
+a:visited{
+	color: #14293E;
+}
+a:hover{
+	color: #14293E;
+}
+#box{
+	margin: -175px 0 0 850px;
+	position: absolute;
+}
+#jfhome{
+	width: 105%;
+	heigth: auto;
+	margin: -50px 0 0 -50px;
+}
+img{
+	width: 105%;
+	heigth: auto;
+	margin: -50px 0 0 -50px;
+}
+
+font-family: 'Barlow', sans-serif;
+font-family: 'DM Sans', sans-serif;

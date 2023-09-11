@@ -1,0 +1,347 @@
+html{
+	font-size: 16px;
+}
+body{
+	background-color: #C7EAFB;
+	overflow-x: hidden;
+}
+
+/*HEADER*/
+.topnav a{
+	font-family: 'Barlow', sans-serif;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 200;
+	color: #DEFCF9;
+	padding: 0 0 0 95px;
+}
+.topnav a:hover{
+	font-family: 'Barlow', sans-serif;
+	width: 100%;
+	overflow: hidden;
+	color: #DEFCF9;
+	text-decoration: underline;
+	font-weight: 400;
+}
+.invisible{
+	color: transparent;
+	padding: 37px 100px 37px 100px;
+	margin: 2px 0 0 65px;
+	position: absolute;
+	z-index: 9999;
+}
+.icon a{
+	font-family: 'Barlow', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 125%;
+	color: #14293E;
+	margin:  0 0 0 0;
+}
+.icon a:visited{
+	color: #14293E;
+}
+.icon a:hover{
+	color: #C7EAFB;
+}
+a{
+	text-decoration: none;
+}
+a visitied{
+	text-decoration: none;
+}
+header{
+	width: 101%;
+	height: auto;
+}
+.bottom{
+	width: 101%;
+	margin: 0 0 -200px -8px;
+}
+#header{
+	width: 105%;
+	heigth: auto;
+	margin: -20px 0 0 -20px;
+}
+#box{
+	margin: -50px 0 0 540px;
+}
+/*BODY*/
+h1{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 5rem;
+	font-weight: 200;
+	line-height: 125%;
+	color: #14293E;
+	letter-spacing: 10px;
+	margin:  100px 0 100px 70px;
+	font-style: italic;
+}
+h2{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 5rem;
+	font-weight: 200;
+	line-height: 125%;
+	color: #276265;
+	letter-spacing: 10px;
+	margin:  100px 0 0 100px;
+	font-style: italic;
+}
+h3{
+	font-family: 'Barlow', sans-serif;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 200;
+	color: #DEFCF9;
+}
+h4{
+	font-family: 'Barlow', sans-serif;
+	text-decoration: none;
+	font-size: 3rem;
+	font-weight: 400;
+	line-height: 100%;
+	color: #14293E;
+	margin: 0 0 0 57px;
+}
+h5{
+	font-family: 'Barlow', sans-serif;
+	text-decoration: none;
+	font-size: 0.9rem;
+	font-weight: 100;
+	line-height: 100%;
+	color: #14293E;
+	margin: 5px 0 0 8px;
+}
+h6{
+font-family: 'Barlow', sans-serif;
+	text-decoration: none;
+	font-size: 1.7rem;
+	font-weight: 400;
+	line-height: 100%;
+	color: #14293E;
+	margin: -250px 0 0 8px;
+}
+#info{
+	font-family: 'Barlow', sans-serif;
+	text-decoration: none;
+	font-size: 1.25rem;
+	font-weight: 200;
+	line-height: 100%;
+	color: #14293E;
+	margin: 20px 0 0 8px;
+}
+hr{
+	border: solid #276265;
+	border-width: 1px;
+	width: 65%;
+	margin: -80px 0 100px -40px;
+}
+.row{ /*only purpose is to place child elements side-by-side*/
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0 100px 50px 80px;
+}
+
+.container{
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+}
+
+.image {
+  max-width: 70%;
+	height: auto;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+	border-radius: 3%;
+	padding: 0 0 0 150px;
+}
+    
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #C7EAFB;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  margin: 6px 0 0 0;
+}
+    
+.container:hover .overlay {
+  opacity: 0.5;
+}
+
+/*FOOTER*/
+.cities{
+  background-color: #14293E;
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  text-align: center;
+  padding:0 300px 0 250px;
+  margin: 200px 0 0 0;
+}
+footer {
+  background-color: #A4DDF9;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: flex-end;
+}
+.column {
+  width: 50%;
+  text-align: left;
+  padding: 30px 80px 50px 80px;
+}
+
+.column p {
+  margin: 15px 0 0 0;
+}
+p{
+	font-family: 'Barlow', sans-serif;
+	text-decoration: none;
+	font-size: 1.1rem;
+	font-weight: 300;
+	color: #14293E;
+	margin: 0 0 10px 0;
+}
+#big{
+	font-family: 'Barlow', sans-serif;
+	text-decoration: none;
+	font-size: 4rem;
+	font-weight: 400;
+	line-height: 100%;
+	color: #14293E;
+	margin: 0 0 0 0;
+}
+#small{
+	font-family: 'Barlow', sans-serif;
+	text-decoration: none;
+	font-size: 2rem;
+	font-weight: 400;
+	color: #14293E;
+	line-height: 90%;
+}
+#tiny{
+	font-family: 'Barlow', sans-serif;
+	text-decoration: none;
+	font-size: 2rem;
+	font-weight: 200;
+	color: #14293E;
+	word-spacing: 0.4em;
+	margin: 10px 0 7px 0;
+}
+
+font-family: 'Barlow', sans-serif;
+font-family: 'DM Sans', sans-serif;
+font-samily: 'Noto Sans' sans-serif;
+
+#form{
+	margin: 0 0 0 0;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+.grid-container {
+  display: grid;
+  gap: 5px;
+}
+
+.grid-item {
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Barlow', sans-serif;
+  color: solid #14293E;
+  margin: 0 0 0 20px;
+}
+.form-group {
+  margin: 0 0 0 20px;
+}
+
+label {
+  display: block;
+  font-family: 'Barlow', sans-serif;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 95%;
+  padding: 5px;
+  background-color: transparent;
+  font-family: 'Barlow', sans-serif;
+  color: #14293E;
+  border-radius: 5px;
+  border: solid #14293E;
+  outline: none;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+input[type="tel"] {
+  font-family: 'Barlow', sans-serif;
+}
+
+input[type="submit"] {
+	background-color: transparent;
+  padding: 10px 20px;
+  border: solid #14293E;
+  cursor: pointer;
+  border-radius: 5px;
+  justify-content: center;
+  margin: 0 0 0 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+input[type="submit"]:hover {
+  background-color: #14293E;
+  color: #C7EAFB;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+.typeform{
+	font-family: 'Barlow', sans-serif;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: #14293E;
+	margin: 0 0 50px 0;
+}
+.typeform hover{
+	font-family: 'Barlow', sans-serif;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 500;
+	text-decoration: underline;
+	color: #14293E;
+	margin: 0 0 50px 0;
+}
+.icons{
+	display: flex;
+	flex-direction: row;
+	margin: 10px 0 20px 0;
+}
+i{
+	font-size: 2.75rem;
+	padding: 0 10px 0 0;
+	color: #14293E;
+}
+i hover{
+	color: #C7EAFB;
+}
+i visited{
+	color: #14293E;
+}
